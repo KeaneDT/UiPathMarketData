@@ -1,0 +1,38 @@
+{
+  "name": "S10202630_KeaneTravasso_TFIAssignmnet",
+  "description": "TFI Assignment 1, where Data will be scraped from the Wall Street Journal Market Data site and stored as an Excel File. The Data will then be averaged and then will be represented visually through the use of Tableau. An Email Report will then be sent using this data .",
+  "main": "Main.xaml",
+  "dependencies": {
+    "AccelerateRPA.FixerIO.Activities": "[1.0.1]",
+    "UiPath.Excel.Activities": "[2.7.2]",
+    "UiPath.Mail.Activities": "[1.7.2]",
+    "UiPath.PDF.Activities": "[3.4.0]",
+    "UiPath.System.Activities": "[19.10.1]",
+    "UiPath.UIAutomation.Activities": "[19.11.3]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.10.5.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfos": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
